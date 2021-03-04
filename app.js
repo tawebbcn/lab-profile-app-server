@@ -12,7 +12,7 @@ require("./configs/session.config")(app);
 
 // Routes
 const authRouter = require('./routes/auth.routes');
-app.use('/auth', usersRouter);
+app.use('/auth', authRouter);
 
 
 // catch 404 and forward to error handler
